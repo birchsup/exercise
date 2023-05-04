@@ -42,7 +42,7 @@ export class GiftPage {
     get yearField() {
         return this.page.getByTestId('dateYear');
     }
-    get mounthField() {
+    get monthField() {
         return this.page.getByTestId('dateMonth');
     }
     get dayField() {
